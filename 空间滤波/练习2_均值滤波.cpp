@@ -5,7 +5,7 @@ using namespace cv;
 int main()
 {
 	VideoCapture cap;
-	cv::Mat srcMat, dstMat;
+
 	cv::Size ksize;
 	ksize.height = 5;
 	ksize.width = 5;
@@ -16,13 +16,16 @@ int main()
 		std::cout << "不能打开视频" << std::endl;
 		return -1;
 	}
-	cap.read(srcMat);
+	while (1)
+	{
+		cv::Mat srcMat, dstMat;
+		cap.read(srcMat);
 
-	blur(srcMat, dstMat, ksize); //均值滤波
-	imshow("原图", srcMat);
-	imshow("均值滤波后", dstMat);
+		blur(srcMat, dstMat, ksize); //均值滤波
+		imshow("原图", srcMat);
+		imshow("均值滤波后", dstMat);
 
-
-	waitKey(0);
+		waitKey(30);
+	}
 
 }

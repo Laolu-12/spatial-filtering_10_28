@@ -27,5 +27,8 @@
     <ClCompile Include="练习4_边缘提取.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="练习5_磨皮.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
