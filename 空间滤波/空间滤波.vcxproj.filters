@@ -14,4 +14,18 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="练习1_中值滤波.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习2_均值滤波.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习3_高斯滤波.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="练习4_边缘提取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
